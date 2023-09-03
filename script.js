@@ -1,5 +1,5 @@
-var crsr = document.querySelector("#cursor");
-var blur = document.querySelector("#cursor-blur");
+let crsr = document.querySelector("#cursor");
+let blur = document.querySelector("#cursor-blur");
 
 document.addEventListener("mousemove", function (dets) {
   crsr.style.left = dets.x + "px";
