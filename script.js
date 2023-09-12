@@ -1,3 +1,4 @@
+"use strict" 
 let crsr = document.querySelector("#cursor");
 let blur = document.querySelector("#cursor-blur");
 
@@ -8,7 +9,7 @@ document.addEventListener("mousemove", function (dets) {
   blur.style.top = dets.y - 250 + "px";
 });
 
-var h4all = document.querySelectorAll("#nav h4");
+let h4all = document.querySelectorAll("#nav h4");
 h4all.forEach(function (elem) {
   elem.addEventListener("mouseenter", function () {
     crsr.style.scale = 3;
