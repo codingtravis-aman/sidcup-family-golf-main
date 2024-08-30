@@ -1,6 +1,6 @@
 "use strict" 
 let crsr = document.querySelector("#cursor");
-var blur = document.querySelector("#cursor-blur");
+let blur = document.querySelector("#cursor-blur");
 
 document.addEventListener("mousemove", function (dets) {
   crsr.style.left = dets.x + "px";
